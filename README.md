@@ -8,4 +8,4 @@ The base box is a [CentOS 6.3 64bits Minimal](https://github.com/Sedimap-pt/sedi
 
 ## License
 
-MIT
+[MIT](https://github.com/danielcsgomes/Vagrant-Puppet-experiments/blob/master/LICENSE)
