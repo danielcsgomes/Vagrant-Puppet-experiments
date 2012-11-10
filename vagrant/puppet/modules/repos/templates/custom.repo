@@ -1,0 +1,25 @@
+[remi]
+name=Les RPM de remi pour Enterprise Linux $releasever - $basearch
+#baseurl=http://rpms.famillecollet.com/enterprise/$releasever/remi/$basearch/
+mirrorlist=http://rpms.famillecollet.com/enterprise/$releasever/remi/mirror
+enabled=1
+gpgcheck=0
+gpgkey=http://rpms.famillecollet.com/RPM-GPG-KEY-remi
+priority=20
+failovermethod=priority
+
+[jpackage-generic]
+name=JPackage (free), generic
+mirrorlist=http://www.jpackage.org/mirrorlist.php?dist=generic&type=free&release=5.0
+failovermethod=priority
+gpgcheck=0
+gpgkey=http://www.jpackage.org/jpackage.asc
+priority=10
+enabled=1
+
+[nginx]
+name=nginx repo
+baseurl=http://nginx.org/packages/centos/$releasever/$basearch/
+gpgcheck=0
+priority=10
+enabled=1
